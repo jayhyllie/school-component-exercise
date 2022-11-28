@@ -23,6 +23,9 @@ body {
     width: 100vw;
     padding: var(--padding-600);
 }
+
+/* General */
+
 input[type='checkbox'] {
     visibility: hidden;
 }
