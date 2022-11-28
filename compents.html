@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise - Components</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="site-wrapper">
+        <div class="card-container">
+        <!-- Course card -->
+        <article class="card">
+            <figure class="card__color"></figure>
+            <section class="card__info">
+                <article class="card__name">
+                    <h3>Semantisk HTML</h3>
+                    <h4>med Prof. Proffesorsson</h4>
+                </article>
+                <ul class="card__options">
+                    <li class="card__option highlighted">Planering</li>
+                    <li class="card__option">Kursvy</li>
+                    <li class="card__option">Översikt</li>
+                    <li class="card__option">Övning</li>
+                </ul>
+            </section>
+        </article>
+
+        </div>
+        
+        <!-- Toggle done -->
+        <section class="awesome__toggle">
+            <span class="awesome__switch"></span>
+            <p>Visa endast mina kurser</p>
+        </section>
+
+        <!-- Userlist topbar -->
+        <nav class="course__navigation">
+            <ul>
+                <li class="course__navigation--link">Planering</li>
+                <div class="separator"></div>
+                <li class="course__navigation--link">Dashboard</li>
+                <div class="separator"></div>
+                <li class="course__navigation--link highlighted">Kursvy</li>
+                <div class="separator"></div>
+                <li class="course__navigation--link">Bedömning</li>
+            </ul>
+        </nav>
+
+        <!-- Lesson Small -->
+        <article class="lesson bg-lightblue value">
+            <section class="lesson__module">
+                <div class="lesson__module--number">
+                    <h3>01</h3>
+                    <div class="number_sep"></div>
+                </div>
+                <p>2 studiedagar</p>
+            </section>
+            <section class="lesson__overview">
+                <h3>Mål med modul</h3>
+                <p>Paradigm shift series A financing social media startup backing android.</p>
+                <p>Paradigm shift series A financing social media startup backing android.</p>
+            </section>
+        </article>
+
+        <!-- Lesson big -->
+        <article class="lesson">
+            <section class="lesson__module">
+                <div class="lesson__module--number">
+                    <h3>1.3</h3>
+                    <div class="number_sep"></div>
+                </div>
+            <div class="lesson__module--time">
+                <img src="/media/calendar-outline.svg">
+                <div class="lesson__module--details">
+                    <p><span class="fw-bold">3 okt.</span> 09.00 16.00</p>
+                    <p class="fs-small">@zoom</p>
+                </div>
+            </div>
+            </section>
+            <section class="lesson__overview">
+                <h3>Tillgänglighet - en grundläggande rättighet</h3>
+                <article class="lesson__overview--goal">
+                    <p>Här står ett väldigt konkret modulmål som kan vara ganska långt beskrivet</p>
+                </article>
+                <p class="lesson__overview--info">Responsive web design agile development funding MVP alpha channels. User experience beta branding supply chain social proof scrum project ramen influencer hypotheses termsheet.</p>
+                <section class="lesson__overview--assignments">
+                <article class="assignment">
+                    <img src="/media/document-outline.svg">
+                    <p class="assignment__info">PDF artikel om bananböjning</p>
+                </article>
+                <article class="assignment">
+                    <img src="/media/videocam-outline.png">
+                    <p class="assignment__info">Super awesome video</p>
+                </article>
+            </section>
+            <section class="self-assessment">
+                <p class="self-assessment__option highlighted">ej påbörjat</p>
+                <div class="self-assessment_sep"></div>
+                <p class="self-assessment__option">Förstår inte</p>
+                <div class="self-assessment_sep"></div>
+                <p class="self-assessment__option">förstår delvis</p>
+                <div class="self-assessment_sep"></div>
+                <p class="self-assessment__option">förstår helt</p>
+                <div class="self-assessment_sep"></div>
+            </section>
+        </article>
+
+        <!-- button -->
+        <button class="awesome-btn">Ok, klar!</button>
+
+        <!-- self assessment slider -->
+
+        <article class="self-assessment__slider">
+            <h4 class="self-assessment__slider--goal">Lorem ipsum dolor sit amet, consectetu</h4>
+            <section class="self-assessment__slider--range">
+                <label for="assessment-slider">förstår inte</label>
+                <input type="range" value="30" id="assessment-slider">
+                <label for="assessment-slider">Förstår allt</label>
+            </section>
+        </article>
+    </div>
+</body>
+</html>
